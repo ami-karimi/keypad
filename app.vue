@@ -1,7 +1,7 @@
 <template>
   <div class="ban-box" dir="rtl">
     <div class="logo-top">
-      <img src="/img/logo.png" />
+      <img src="/img/logo.png?t=1" />
     </div>
 
     <div class="card-box">
