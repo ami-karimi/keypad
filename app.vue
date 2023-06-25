@@ -3,7 +3,6 @@
     <div class="logo-top">
       <img src="/img/logo.png" />
     </div>
-    <small>لطفا جهت دریافت لیست کاتالوگ ها و اخبار شرکت بان شماره تماس خود را وارد نمایید</small>
 
     <div class="card-box">
        <div class="number-box">
@@ -11,50 +10,50 @@
        </div>
 
       <div class="numbers" dir="ltr">
-        <div class="nm">
-           <div @click="input(1)">
-             <label>1</label>
-           </div>
-          <div @click="input(2)">
-            <label>2</label>
-          </div>
-          <div @click="input(3)">
-            <label>3</label>
-          </div>
-        </div>
-        <div class="nm">
-          <div @click="input(4)">
-            <label>4</label>
-          </div>
-          <div @click="input(5)">
-            <label>5</label>
-          </div>
-          <div @click="input(6)">
-            <label>6</label>
-          </div>
-        </div>
-        <div class="nm">
-          <div @click="input(7)">
-            <label>7</label>
-          </div>
-          <div @click="input(8)">
-            <label>8</label>
-          </div>
-          <div @click="input(9)">
-            <label>9</label>
-          </div>
-        </div>
-        <div class="nm">
-          <div @click="rem" style="font-size: 13px;color: red;font-weight: bold">
-            <label>حذف</label>
-          </div>
-          <div @click="input(0)">
-            <label>0</label>
-          </div>
-          <div @click="saveNumber" style="font-size: 13px;color: green;font-weight: bold">
-            <label>ثبت</label>
-          </div>
-        </div>
+        <span class="nm">
+           <span @click="input(1)">
+             <span>1</span>
+           </span>
+          <span @click="input(2)">
+            <span>2</span>
+          </span>
+          <span @click="input(3)">
+            <span>3</span>
+          </span>
+        </span>
+        <span class="nm">
+          <span @click="input(4)">
+            <span>4</span>
+          </span>
+          <span @click="input(5)">
+            <span>5</span>
+          </span>
+          <span @click="input(6)">
+            <span>6</span>
+          </span>
+        </span>
+        <span class="nm">
+          <span @click="input(7)">
+            <span>7</span>
+          </span>
+          <span @click="input(8)">
+            <span>8</span>
+          </span>
+          <span @click="input(9)">
+            <span>9</span>
+          </span>
+        </span>
+        <span class="nm">
+          <span @click="rem" style="font-size: 13px;color: red;font-weight: bold">
+            <span>حذف</span>
+          </span>
+          <span @click="input(0)">
+            <span>0</span>
+          </span>
+          <span @click="saveNumber" style="font-size: 13px;color: green;font-weight: bold">
+            <span>ثبت</span>
+          </span>
+        </span>
 
       </div>
     </div>
@@ -106,12 +105,12 @@ export default {
         icon: 'question',
         confirmButtonText: 'ثبت اطلاعات',
         html: `<span style="font-size: 13px; margin-bottom: 15px;font-weight: bold;display:block;">اگر تمایل داشتید حوزه کاری خود را انتخاب کنید</span><div class="multi_select">`+
-               `<div class="item"><input name="types[]" id="sl_1" value="erp" type="checkbox"> <label for="sl_1">ERP</label></div>`+
-               `<div class="item"><input  name="types[]" id="sl_2"  value="datacenter"  type="checkbox"> <label for="sl_2">دیتاسنتر</label></div>`+
-               `<div class="item"><input name="types[]" id="sl_3"  value="iot"  type="checkbox"> <label for="sl_3">IOT</label></div>`+
-               `<div class="item"><input name="types[]" id="sl_4"   value="financial" type="checkbox"> <label for="sl_4">نرم افزار های تحت وب و مالی</label></div>`+
-               `<div class="item"><input name="types[]"  id="sl_5"  value="order" type="checkbox"> <label for="sl_5">سفارش گیر</label></div>`+
-               `<div class="item"><input name="types[]" id="sl_6"   value="other" type="checkbox"> <label for="sl_6">سایر</label></div>`+
+               `<div class="item"><input name="types[]" id="sl_1" value="erp" type="checkbox"> <span for="sl_1">ERP</span></div>`+
+               `<div class="item"><input  name="types[]" id="sl_2"  value="datacenter"  type="checkbox"> <span for="sl_2">دیتاسنتر</span></div>`+
+               `<div class="item"><input name="types[]" id="sl_3"  value="iot"  type="checkbox"> <span for="sl_3">IOT</span></div>`+
+               `<div class="item"><input name="types[]" id="sl_4"   value="financial" type="checkbox"> <span for="sl_4">نرم افزار های تحت وب و مالی</span></div>`+
+               `<div class="item"><input name="types[]"  id="sl_5"  value="order" type="checkbox"> <span for="sl_5">سفارش گیر</span></div>`+
+               `<div class="item"><input name="types[]" id="sl_6"   value="other" type="checkbox"> <span for="sl_6">سایر</span></div>`+
             `</div>`,
         preConfirm: () => {
           return [

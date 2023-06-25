@@ -26,8 +26,7 @@
 }
 
 body {
-    background-color: red;
-    animation: color 9s infinite linear;
+    background-color: black;
     font-family: "IRANSans FaNum", serif;
 }
 @keyframes color {
@@ -62,7 +61,7 @@ body {
     justify-content: center;
     overflow: hidden;
     height: 100px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .ban-box .logo-top img {
   max-width: 260px;
@@ -71,7 +70,7 @@ body {
     background-color: white;
     min-height: 200px;
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: 1px solid red;
     animation: border 1s infinite linear;
@@ -95,7 +94,7 @@ body {
     font-family: "IRANSans FaNum";
 }
 .ban-box .numbers  .nm:first-child {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 .ban-box .numbers  .nm  {
     display: flex;
@@ -103,15 +102,19 @@ body {
     margin-bottom: 10px;
     cursor: pointer;
 }
-.ban-box .numbers  .nm  div {
+.ban-box .numbers  .nm  span {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 10px;
     background-color: #eaeaea;
     border-radius: 100%;
+}
+.ban-box .numbers  .nm  div:hover {
+    background-color: #cccccc;
 }
 .multi_select {
     direction: rtl;
