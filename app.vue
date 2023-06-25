@@ -165,7 +165,7 @@ export default {
       }
     },
     async SendAndSave(form){
-     return await $fetch('https://arta20.top/api/save_stogram',{method: "POST",body: {
+     return await $fetch('https://api.arta20.top/api/save_stogram',{method: "POST",body: {
           phone: this.phone,
           data: form,
         }})
