@@ -1,10 +1,7 @@
 @font-face {
     font-family: 'IRANSans FaNum';
     src: url('../fonts/IRANSansWeb-FaNum.eot');
-    src: url('../fonts/IRANSansWeb-FaNum.eot') format('embedded-opentype'),
-    url('../fonts/IRANSansWeb-FaNum.woff2') format('woff2'),
-    url('../fonts/IRANSansWeb-FaNum.woff') format('woff'),
-    url('../fonts/IRANSansWeb-FaNum.ttf')  format('truetype')
+    src: url('../fonts/IRANSansWeb-FaNum.eot') format('embedded-opentype')
 }
 @font-face {
     font-family: 'IRANSans Light';
