@@ -28,7 +28,7 @@
 body {
     background-color: red;
     animation: color 9s infinite linear;
-    font-family: "IRANSans FaNum";
+    font-family: "IRANSans FaNum", serif;
 }
 @keyframes color {
     0%   { background: #33CCCC; }
