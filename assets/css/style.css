@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'IRANSans FaNum';
+    src: url('../fonts/IRANSansWeb-FaNum.eot');
+    src: url('../fonts/IRANSansWeb-FaNum.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/IRANSansWeb-FaNum.woff2') format('woff2'),
+    url('../fonts/IRANSansWeb-FaNum.woff') format('woff'),
+    url('../fonts/IRANSansWeb-FaNum.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'IRANSans Light';
+    src: url('../fonts/iransans-light.eot');
+    src: url('../fonts/iransans-light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iransans-light.woff2') format('woff2'),
+    url('../fonts/iransans-light.woff') format('woff'),
+    url('../fonts/iransans-light.ttf')  format('truetype'),
+    url('../fonts/iransans-light.svg#IRANSans') format('svg');
+}
+@font-face {
+    font-family: 'IRANSans Bold';
+    src: url('../fonts/iransans-bold.eot');
+    src: url('../fonts/iransans-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iransans-bold.woff2') format('woff2'),
+    url('../fonts/iransans-bold.woff') format('woff'),
+    url('../fonts/iransans-bold.ttf')  format('truetype'),
+    url('../fonts/iransans-bold.svg#IRANSans') format('svg');
+}
+
+body {
+    background-color: red;
+    animation: color 9s infinite linear;
+    font-family: "IRANSans FaNum";
+}
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+}
+@keyframes border {
+    0%   { border-color: #33CCCC; }
+    20%  { border-color: #33CC36; }
+    40%  { border-color: #B8CC33; }
+    60%  { border-color: #FCCA00; }
+    80%  { border-color: #33CC36; }
+    100% { border-color: #33CCCC; }
+}
+.ban-box {
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ban-box .logo-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100px;
+    margin-top: 70px;
+}
+.ban-box .logo-top img {
+  max-width: 260px;
+}
+.ban-box .card-box {
+    background-color: white;
+    min-height: 200px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid red;
+    animation: border 1s infinite linear;
+
+}
+.ban-box .card-box {
+   padding: 20px;
+}
+.ban-box .number-box {
+
+}
+.ban-box .number-box  input {
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #eaeaea;
+    width: 100%;
+    text-align: center;
+    color: #414141;
+    font-family: "IRANSans FaNum";
+}
+.ban-box .numbers  .nm:first-child {
+    margin-top: 15px;
+}
+.ban-box .numbers  .nm  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.ban-box .numbers  .nm  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 100%;
+}
+.multi_select {
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.swal2-title {
+    direction: rtl;
+}
+.swal2-confirm {
+    direction: rtl;
+    font-family: "IRANSans FaNum";
+}
+.multi_select .item {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+
+}
