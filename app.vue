@@ -130,7 +130,13 @@ export default {
 
         try {
           await this.SendAndSave(formValues)
-
+          this.phone = ""
+          this.Alert.fire({
+            icon: 'success',
+            title: 'ممنونم :)',
+            text: 'اطلاعات شما با موفقیت ثبت شد',
+            confirmButtonText: `خروج!`,
+          })
         }catch (er){
            this.Alert.fire({
             icon: 'error',
