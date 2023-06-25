@@ -18,11 +18,11 @@
 @font-face {
     font-family: 'IRANSans Bold';
     src: url('../fonts/iransans-bold.eot');
-    src: url('../fonts/iransans-bold.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/iransans-bold.eot') format('embedded-opentype'),
     url('../fonts/iransans-bold.woff2') format('woff2'),
     url('../fonts/iransans-bold.woff') format('woff'),
     url('../fonts/iransans-bold.ttf')  format('truetype'),
-    url('../fonts/iransans-bold.svg#IRANSans') format('svg');
+    url('../fonts/iransans-bold.svg') format('svg');
 }
 
 body {
