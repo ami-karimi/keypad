@@ -6,7 +6,7 @@
 
     <div class="card-box">
        <div class="number-box">
-        <input id="phone_element" readonly type="text"  v-model="phone" >
+        <input id="phone_element" placeholder="09111234567" readonly type="text"  v-model="phone" >
        </div>
 
         <div class="numbers" dir="ltr">
