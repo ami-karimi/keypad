@@ -125,6 +125,12 @@ body {
     user-select: none;
 }
 .ban-box .numbers  > div {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; /* Safari */
+    -webkit-user-select: none; /* Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
     cursor: pointer;
     display: flex;
     align-items: center;
