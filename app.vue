@@ -1,4 +1,47 @@
 <template>
+  <div>
+    <div class="ban-wrapper">
+      <div class="glowing">
+
+        <span style="--i:1;"></span>
+
+        <span style="--i:2;"></span>
+
+        <span style="--i:3;"></span>
+
+      </div>
+
+      <div class="glowing">
+
+        <span style="--i:1;"></span>
+
+        <span style="--i:2;"></span>
+
+        <span style="--i:3;"></span>
+
+      </div>
+
+      <div class="glowing">
+
+        <span style="--i:1;"></span>
+
+        <span style="--i:2;"></span>
+
+        <span style="--i:3;"></span>
+
+      </div>
+
+      <div class="glowing">
+
+        <span style="--i:1;"></span>
+
+        <span style="--i:2;"></span>
+
+        <span style="--i:3;"></span>
+
+      </div>
+    </div>
+
   <div class="ban-box" dir="rtl">
     <div class="logo-top">
       <img src="/img/logo.png?t=1" />
@@ -51,6 +94,7 @@
       </div>
     </div>
 
+  </div>
   </div>
 </template>
 <script>
