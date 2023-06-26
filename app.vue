@@ -80,14 +80,14 @@
           <div @click="input(9)">
             <div>9</div>
           </div>
-          <div @click="rem" style="font-size: 13px;color: red;font-weight: bold">
-            <div>حذف</div>
+          <div @click="rem">
+            <div  style="color: red!important;font-weight: bold">حذف</div>
           </div>
           <div @click="input(0)">
             <div>0</div>
           </div>
-          <div @click="saveNumber" style="font-size: 13px;color: green;font-weight: bold">
-            <div>ثبت</div>
+          <div @click="saveNumber" >
+            <div style="color: green!important;font-weight: bold">ثبت</div>
           </div>
 
 
