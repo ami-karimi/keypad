@@ -100,10 +100,11 @@ body {
     justify-content: space-between;
     margin-top: 20px;
     cursor: pointer;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-
+    -webkit-touch-callout: none; /* Safari */
+    -webkit-user-select: none; /* Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 }
 .ban-box .numbers > div > div {
     background-color: #eaeaea;
@@ -115,9 +116,11 @@ body {
     align-items: center;
     justify-content: center;
     transition: .2s;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-touch-callout: none; /* Safari */
+    -webkit-user-select: none; /* Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 }
 .ban-box .numbers  > div {
     cursor: pointer;
