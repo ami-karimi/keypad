@@ -144,17 +144,17 @@ export default {
       if(this.phone.length === 11){
         return;
       }
-      let $element = document.getElementById('phone_element')
-      if($element){
-        $element.value = $element.value+num
-        this.phone = $element.value
+      let element = document.getElementById('phone_element')
+      if(element){
+        element.value = element.value+num
+        this.phone = element.value
       }
     },
     rem(){
-      let $element = document.getElementById('phone_element')
-      if($element){
-        $element.value = $element.value.substr(0, $element.value.length - 1);
-        this.phone = $element.value
+      let element = document.getElementById('phone_element')
+      if(element){
+        element.value = element.value.substr(0, element.value.length - 1);
+        this.phone = element.value
 
       }
     },
