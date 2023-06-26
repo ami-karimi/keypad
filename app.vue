@@ -98,12 +98,12 @@ export default {
         icon: 'question',
         confirmButtonText: 'ثبت اطلاعات',
         html: `<div style="font-size: 13px; margin-bottom: 15px;font-weight: bold;display:block;">اگر تمایل داشتید حوزه کاری خود را انتخاب کنید</div><div class="multi_select">`+
-               `<div class="item"><input name="types[]" id="sl_1" value="erp" type="checkbox"> <div for="sl_1">ERP</div></div>`+
-               `<div class="item"><input  name="types[]" id="sl_2"  value="datacenter"  type="checkbox"> <div for="sl_2">دیتاسنتر</div></div>`+
-               `<div class="item"><input name="types[]" id="sl_3"  value="iot"  type="checkbox"> <div for="sl_3">IOT</div></div>`+
-               `<div class="item"><input name="types[]" id="sl_4"   value="financial" type="checkbox"> <div for="sl_4">نرم افزار های تحت وب و مالی</div></div>`+
-               `<div class="item"><input name="types[]"  id="sl_5"  value="order" type="checkbox"> <div for="sl_5">سفارش گیر</div></div>`+
-               `<div class="item"><input name="types[]" id="sl_6"   value="other" type="checkbox"> <div for="sl_6">سایر</div></div>`+
+               `<div class="item"><input name="types[]" id="sl_1" value="erp" type="checkbox"> <label for="sl_1">ERP</label></div>`+
+               `<div class="item"><input  name="types[]" id="sl_2"  value="datacenter"  type="checkbox"> <label for="sl_2">دیتاسنتر</label></div>`+
+               `<div class="item"><input name="types[]" id="sl_3"  value="iot"  type="checkbox"> <label for="sl_3">IOT</label></div>`+
+               `<div class="item"><input name="types[]" id="sl_4"   value="financial" type="checkbox"> <label for="sl_4">نرم افزار های تحت وب و مالی</label></div>`+
+               `<div class="item"><input name="types[]"  id="sl_5"  value="order" type="checkbox"> <label for="sl_5">سفارش گیر</label></div>`+
+               `<div class="item"><input name="types[]" id="sl_6"   value="other" type="checkbox"> <label for="sl_6">سایر</label></div>`+
             `</div>`,
         preConfirm: () => {
           return [
